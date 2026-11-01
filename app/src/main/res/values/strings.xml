@@ -38,14 +38,30 @@
 
     <!-- Settings and providers -->
     <string name="settings_title">Settings</string>
-    <string name="settings_note">Providers are stored on this phone only. Nothing is sent anywhere in this version. Transcription, summaries, and action items come in phase 2.</string>
+    <string name="settings_note">Providers are stored on this phone only. Transcription, summaries, and action items come in phase 2. The Test connection button sends one request to that provider, only when you tap it.</string>
     <string name="add_provider">Add provider</string>
     <string name="edit_provider">Edit provider</string>
     <string name="no_providers">No providers yet. Add one to get ready for phase 2.</string>
     <string name="provider_name_hint">Name, for example My OpenRouter</string>
+    <string name="provider_name_label">Name</string>
     <string name="provider_base_url_hint">Base URL</string>
+    <string name="provider_base_url_label">Base URL</string>
     <string name="provider_api_key_hint">API key</string>
+    <string name="provider_api_key_label">API key</string>
     <string name="provider_model_hint">Model name</string>
+    <string name="provider_model_label">Model</string>
+    <string name="provider_test_connection">Test connection</string>
+    <string name="provider_testing">Testing...</string>
+    <string name="provider_test_success">Connected. The provider answered.</string>
+    <string name="provider_test_no_url">Enter a base URL first.</string>
+    <string name="provider_test_bad_url">Bad URL. Check the base URL.</string>
+    <string name="provider_test_no_network">Cannot reach the server. Check the URL and your connection.</string>
+    <string name="provider_test_refused">Connection refused. Is the server running?</string>
+    <string name="provider_test_timeout">Timed out. The server took too long to answer.</string>
+    <string name="provider_test_bad_key">Bad key (401). Check the API key.</string>
+    <string name="provider_test_forbidden">Access denied (403).</string>
+    <string name="provider_test_not_found">Not found (404). Check the base URL.</string>
+    <string name="provider_test_server_error">Server answered with HTTP %1$d.</string>
     <string name="provider_local_note">Runs on this phone. No internet needed, and nothing leaves the phone.</string>
     <string name="provider_on_device">On this phone, works offline</string>
     <string name="provider_no_model">No model set</string>
