@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GOAT Recorder</string>
+
+    <!-- Recording -->
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="permission_mic_needed">Microphone permission is needed to record.</string>
+    <string name="playback_failed">Could not play this recording.</string>
+    <string name="rename_title">Rename recording</string>
+    <string name="delete_title">Delete recording</string>
+    <string name="delete_message">Delete \"%1$s\"? This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="parts_count">%1$d parts</string>
+    <string name="pending_transcription">Transcription pending</string>
+    <string name="play_recording">Play recording</string>
+    <string name="stop_playback">Stop playback</string>
+    <string name="no_recordings">No recordings yet. Tap Start recording to make one.</string>
+
+    <!-- Recording notification -->
+    <string name="notification_channel_name">Recording</string>
+    <string name="notification_channel_description">Shows while GOAT Recorder is recording.</string>
+    <string name="notification_recording_title">GOAT Recorder is recording</string>
+    <string name="notification_recording_text">Tap Stop to finish, or open the app to see your recordings.</string>
+    <string name="notification_stop">Stop</string>
+
+    <!-- Widget -->
+    <string name="widget_label">GOAT Recorder</string>
+    <string name="widget_tap_to_record">Tap to record</string>
+    <string name="widget_recording">Recording. Tap to stop.</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_label">Record</string>
+    <string name="tile_tap_to_record">Tap to record</string>
+    <string name="tile_recording">Recording</string>
+
+    <!-- Settings and providers -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_note">Providers are stored on this phone only. Nothing is sent anywhere in this version. Transcription, summaries, and action items come in phase 2.</string>
+    <string name="add_provider">Add provider</string>
+    <string name="edit_provider">Edit provider</string>
+    <string name="no_providers">No providers yet. Add one to get ready for phase 2.</string>
+    <string name="provider_name_hint">Name, for example My OpenRouter</string>
+    <string name="provider_base_url_hint">Base URL</string>
+    <string name="provider_api_key_hint">API key</string>
+    <string name="provider_model_hint">Model name</string>
+    <string name="provider_local_note">Runs on this phone. No internet needed, and nothing leaves the phone.</string>
+    <string name="provider_on_device">On this phone, works offline</string>
+    <string name="provider_no_model">No model set</string>
+    <string name="provider_no_url">No URL set</string>
+    <string name="provider_delete_title">Delete provider</string>
+    <string name="provider_delete_message">Delete \"%1$s\"?</string>
+</resources>
