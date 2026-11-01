@@ -17,8 +17,10 @@ Everything in phase 1 works with zero connectivity:
 - Playback of saved recordings
 - Local storage of recordings and settings
 
-There is no INTERNET permission in the manifest on purpose. Nothing in
-phase 1 can reach the network, because nothing in phase 1 needs it.
+The manifest now has the INTERNET permission for one thing only: the
+Test connection button in provider settings, which sends one request
+to that provider when tapped. Recording, the widget, the tile, and
+playback still work with zero connectivity.
 
 ## Phase 1, what is built
 
